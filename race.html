@@ -7,24 +7,30 @@
     <title> Race Registration! </title>
     <link rel="icon" href="file:///C:/Users/adrie/Documents/CODE/VSCODE/Race.png">
     <link rel="stylesheet" href="file:///C:/Users/adrie/Documents/CODE/VSCODE/race.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 </head>
 
 <body>
-    <h1> Race Registration </h1>
-    <form action="search">
-        <p>
-            <label for="first">First Name </label>
-            <input type="text" id="first" name="firstname">
-            <button>Submit</button>
-        </p>
+    <br>
 
-        <p>
-            <label for="last">Last name</label>
-            <input type="text" id="second" name="lastname">
-            <button>Sumbit</button>
 
-        </p>
-        <h2> What race are you attending? </h2>
+    <fieldset>
+        <h1> 🏁 Race Registration! 🏁 </h1>
+
+        <form action="search">
+            <p>
+                <label for="first">First Name </label>
+                <input type="text" id="first" name="firstname">
+
+            </p>
+
+            <p>
+                <label for="last">Last name</label>
+                <input type="text" id="second" name="lastname">
+
+
+            </p>
+            <h2> What race are you attending? </h2>
 
             <div>
                 <label for="funrun" class="radio">Fun Run </label>
@@ -41,48 +47,49 @@
                 <input type="radio" class="radioinput" id="full" name="race">
             </div>
 
-        <br>
-        <section>
-            <button id="radiobutton">Submit </button>
-        </section>
-
-        <p>
-        <h2> Age Group</h2>
-        <br>
-        <label for="age">Age Group</label>
-        <select name="Age" id="age">
-            <option value="none">---Please select an option---</option>
-            <option value="16-20">16-20</option>
-            <option value="21-30">21-30</option>
-            <option value="31-40">31-40</option>
-        </select>
-        <button class="Submit"> Submit </button>
-        </p>
-
-        <p>
-        <h2> Email Address</h2>
-        <br>
-        <label for="email">Email address</label>
-        <input type="email" id="email" name="email" required>
-
-        <button>Submit</button>
-        </p>
-
-        <p>
-        <h2>Password </h2>
-        <br>
-        <label for="password">Password</label>
-        <input type="password" id="password" minlength="6" maxlength="20" required>
-        <button>Submit</button>
-
-        </p>
-        <p>
             <br>
-        <footer>
-            <button id="reg"> REGISTER </button>
-        </footer>
-        </p>
-    </form>
+            <section>
+
+            </section>
+
+            <p>
+            <h2> Age Group</h2>
+            <br>
+            <label for="age">Age Group</label>
+            <select name="Age" id="age">
+                <option value="none">---Please select an option---</option>
+                <option value="16-20">16-20</option>
+                <option value="21-30">21-30</option>
+                <option value="31-40">31-40</option>
+            </select>
+
+            </p>
+
+            <p>
+            <h2> Email Address</h2>
+            <br>
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" required>
+
+
+            </p>
+
+            <p>
+            <h2>Password </h2>
+            <br>
+            <label for="password">Password</label>
+            <input type="password" id="password" minlength="6" maxlength="20" required>
+
+
+            </p>
+            <p>
+                <br>
+            <footer>
+                <button id="reg"> REGISTER! </button>
+            </footer>
+            </p>
+        </form>
+    </fieldset>
 </body>
 
 </html>
