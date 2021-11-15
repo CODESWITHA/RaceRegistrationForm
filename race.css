@@ -1,24 +1,96 @@
+:root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.60em;
+}
+@media (max-width:300px) {
+    :root{
+        font-size: 0.50em;
+    }
+    
+}
+
+@media (max-width:800px) {
+    :root {
+        font-size: 0.60em;
+    }
+}
+
+@media (max-width:1900px) {
+    :root {
+        font-size: 0.70em;
+    }
+}
+
 body {
     margin: 0;
     margin-bottom: 20px;
     height:100%;
-    background-color: #c9847f;
+    background: url(runshoe.png);
+    background-color: #fcfbfa;
     display: flex;
     flex-direction: column;
     align-items: center;
     font-family: monospace;
 }
+fieldset {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+background-color: rgb(174, 241, 106);
+  opacity: 0.9;
+  border-radius: 1em;
+  
+  
+}
+
 
 h1 {
+    margin-bottom:1em;
+    font-size: 2em;
+    text-decoration: none;
     text-align: center;
-    text-decoration: underline;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* text-decoration: underline; */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkblue;
+    
 }
+
+
 h2 {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+   
     text-align: center;
+    margin-left: 5%;
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    color: darkblue;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+label {
+    color:darkred;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+}
+
+input#first,#second,#email,#password{
+    width: 160px;
+    margin-left: 2%;
+    border-radius: 0.8em;
+}
+
+input:focus{
+    transition: 0.3s;
+width: 170px;
+background-color:lightsteelblue;
+
+}
+
+#age {
+    border-radius: 0.8em;
+    
 }
 
  div .radioinput {
@@ -30,7 +102,7 @@ h2 {
 
 div #radiobutton {
     margin-left: 43%;
-   /* (1,0,1) */
+  
 }
 div {
     margin:0%;
@@ -54,16 +126,29 @@ label {
     display: inline-block;
     align-content: center;
     justify-items: center;
-    text-align: ;
+    padding-left: 3%;
+    
 
 
 }
-
+button {
+    padding: 1em;
+    border-radius: 0.5em;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: orange;
+}
+button:hover {
+   background-color: lightskyblue;
+   transition: 0.3s;
+   cursor: pointer;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 footer #reg {
 
-        margin-left: 43%;
+        margin-left: 41.5%;
         justify-content:center;
         align-content: center;
         text-align:center;
-/* (1,0,1) */
+
 }
